@@ -55,9 +55,9 @@ int main()
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Google")  
 基本格式:  
 `![alt](URL title)`  
-*alt表示图片显示失败时替换的文本  
-*title表示鼠标悬停在图片上显示的文本
-*URL是图片的链接地址  
+* alt表示图片显示失败时替换的文本  
+* title表示鼠标悬停在图片上显示的文本
+* URL是图片的链接地址  
 
 # 锚点  
 每一个标题都是一个锚点  
