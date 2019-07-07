@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+html:
+Hypertext Mark-up Language
+<xmp>
+    <!DOCTYPE html><!--浏览器得知自己要处理的内容是html-->
+    <html lang="en"><!--文档中html部分开始的地方-->
+    <head><!--提供文档的内容和标注信息-->
+        <meta charset="UTF-8"><!--编码，无则中文乱码-->
+        <title>Title</title><!--lable上的显示-->
+    </head>
+    <body><!--网页中显示的内容-->
+        <h1>...</h1><!--字体加大-->
+    </body>
+    </html><!--html的结束-->
+</xmp>
+</body>
+</html>
