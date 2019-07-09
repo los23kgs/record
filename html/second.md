@@ -25,3 +25,4 @@ target属性为blank时，点击会新建一个窗口，默认或为self时会�
 
   
 
+[返回HTML5目录](https://los23kgs.github.io/record/html/html.html)
