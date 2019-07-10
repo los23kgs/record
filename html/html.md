@@ -9,3 +9,6 @@
 [html5的第四课](https://los23kgs.github.io/record/html/4.html):html5列表的元素
 
 [html5的第五课](https://los23kgs.github.io/record/html/5.html):html5表单的元素上
+
+[html5的第六课](https://los23kgs.github.io/record/html/6.html):html5表单的元素中
+
