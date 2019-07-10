@@ -6,6 +6,4 @@
 
 * ## [***<u>markdown的使用说明</u>***](./markdown/markdown_grammar.md)
 
-* [***<u>mermaid测试</u>***](./mermaid.html)
-
 
