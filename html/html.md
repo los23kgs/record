@@ -16,5 +16,5 @@
 
 [html5的第八课](https://los23kgs.github.io/record/html/8.html):HTML5嵌入图片与创建分区响应图
 
-[html5的第九课](https://los23kgs.github.io/record/html/8.html):HTML5嵌入视频
+[html5的第九课](https://los23kgs.github.io/record/html/9.html):HTML5嵌入视频
 
