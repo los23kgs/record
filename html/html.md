@@ -12,5 +12,7 @@
 
 [html5的第六课](https://los23kgs.github.io/record/html/6.html):html5表单的元素中
 
-[html5的第七课](https://los23kgs.github.io/record/html/6.html):html5表单的元素下
+[html5的第七课](https://los23kgs.github.io/record/html/7.html):html5表单的元素下
+
+[html5的第八课](https://los23kgs.github.io/record/html/8.html):HTML5嵌入图片与创建分区响应图
 
