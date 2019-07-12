@@ -4,3 +4,5 @@
 
 [<font color="crimeson">CSS第二课</font>:](./2.md)CSS边框和背景
 
+[<font color="sandybrown">CSS第三课</font>:](./2.md)CSS选择器
+
