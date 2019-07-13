@@ -8,4 +8,5 @@
 
 [<font color="seagreen">CSS第四课</font>:](./4.md)CSS设置文本样式上
 
-[<font color="seagreen">CSS第五课</font>:](./5.md)CSS设置文本样式下
+[<font color="royalblue">CSS第五课</font>:](./5.md)CSS设置文本样式下
+
