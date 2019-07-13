@@ -12,3 +12,7 @@
 
 [<font color="crisson">CSS第六课</font>:](./6.md)CSS文本过渡
 
+[<font color="sandybrown">CSS第七课</font>:](./7.md)CSS动画
+
+
+
