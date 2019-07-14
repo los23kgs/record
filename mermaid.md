@@ -1,16 +1,15 @@
-```mermaid
 
-graph LR
- 	A-->B((B))
-    B((B))-->C
-    C-->D
-    D((D))-->END
-	D-->F
-	F-->B 
-   
-    
-   
-  
-```
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+formula1: $$n==x$$
 
-[test](./8.html)
+formula2: $$n!=x$$
+
+formula3: (m==y)
+
+formula4: [m!=y]
+
+formula5: \(k==z\)
+
+formula6: \[k!=z\]
+
+
