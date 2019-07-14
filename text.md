@@ -1,5 +1,4 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
-
 formula1: $$n==x$$
 
 formula2: $$n!=x$$
@@ -12,5 +11,5 @@ formula5: \(k==z\)
 
 formula6: \[k!=z\]
 
-$\sum_{i=1}^n a_i=0$
+$$\sum_{i=1}^n a_i=0$$
 
