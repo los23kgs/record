@@ -1,24 +1,81 @@
 <!DOCTYPE html>
-<html lang="ch">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>About</title>
-    <link rel="icon" href="../img/title.png">
-    <script type="text/javascript" src="http://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
-    <script type="text/javascript">
-        $webfont.load("body", "681d6473f514461abcda8d18f0f33f08", "SansGBW3");
-        /*$webfont.load("#id1,.class1,h1", "681d6473f514461abcda8d18f0f33f08", "SansGBW3");*/
-        /*．．．*/
-        $webfont.draw();
-    </script>
-    <link rel="stylesheet" href="about-style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url("../img/k2.jpg") no-repeat;
+            background-size: cover;
+        }
+        .box {
+            position: relative;
+            margin:auto;
+            margin-top: 10%;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.7);
+        }
+        /* 用box的伪元素添加一个面积比box略大的矩形,并通过改变层叠次序,置于box的下层,达到给box设置边框的效果 */
+        .box::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: #fff;
+            z-index: -1;
+        }
+        /* 于上面类似,做一个面积比box略大的矩形,并通过改变层叠次序,置于box的下层,达到给box设置边框的效果 */
+        .box::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: #fff;
+            z-index: -2;
+            /* 滤镜属性  给图像设置高斯模糊。"radius"一值设定高斯函数的标准差，或者是屏幕上以多少像素融在一起，所以值越大越模糊；如果没有设定值，则默认是0；这个参数可设置css长度值，但不接受百分比值。 */
+            filter: blur(40px);
+        }
+        .box::before,
+        .box::after {
+            /* linear-gradient() 函数用于创建一个线性渐变的 "图像"。 参数1:用角度值指定渐变的方向（或角度）  12点钟方向为0deg*/
+            background: linear-gradient(235deg, #dc143c, #4169e1, #f4a460);
+        }
+        .content {
+            padding: 20px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+        .box-img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
 <div class="box">
-    <img src="../img/title.png" alt="" class="box-img">
-    <h1><font color="#4169e1">瘦</font><font color="#dc143c">下</font><font color="#f4a460">来</font></h1>
-    <h5><font color="#4169e1">Just</font> <font color="#dc143c">Record</font> <font color="#f4a460">What</font> <font color="#4169e1">I</font> <font color="#2e8b57">Have</font> <font color="#dc143c">Done</font></h5>
-    <p><font color="#4169e1">一步两步</font><br><font color="#dc143c">一步两步</font><br><font color="#f4a460">一步一似爪牙</font><br><font color="#4169e1">似魔鬼的步伐</font><br><font color="#2e8b57">摩擦摩擦</font></p>
+    <div class="content">
+        <img src="../img/title.png" alt="" class="box-img">
+        <h1><font color="#4169e1">瘦</font><font color="#dc143c">下</font><font color="#f4a460">来</font></h1>
+        <h5><font color="#4169e1">Just</font> <font color="#dc143c">Record</font> <font color="#f4a460">What</font> <font color="#4169e1">I</font> <font color="#2e8b57">Have</font> <font color="#dc143c">Done</font></h5>
+        <p><font color="#4169e1">一步两步</font><br><font color="#dc143c">一步两步</font><br><font color="#f4a460">一步一似爪牙</font><br><font color="#4169e1">似魔鬼的步伐</font><br><font color="#2e8b57">摩擦摩擦</font></p>
+    </div>
 </div>
 </body>
 </html>
