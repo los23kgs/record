@@ -1,104 +1,18 @@
 <!DOCTYPE html>
-<html lang="ch">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Record</title>
+    <meta charset="UTF-8" />
     <link rel="icon" href="./img/title.png">
-    <style type="text/css">
-        .whitesmoke{
-            background-color: whitesmoke;
-        }
-        .royalblue{
-            color: royalblue;
-            text-align: left;
-            font-size: 30px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-        }
-        .royalblue:hover{
-            color: royalblue;
-            text-align: left;
-            font-size: 32px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-            transition-delay: 150ms;
-            transition-duration: 500ms;
-            transition-property: all;
-            transition-timing-function: ease-in-out;
-        }
-        .crimson{
-            color: crimson;
-            text-align: left;
-            font-size: 30px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-        }
-        .crimson:hover{
-            color: crimson;
-            text-align: left;
-            font-size: 32px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            transition-delay: 150ms;
-            transition-duration: 500ms;
-            transition-property: all;
-            transition-timing-function: ease-in-out;
-        }
-        .sandybrown{
-            color: sandybrown;
-            text-align: left;
-            font-size: 30px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-        }
-        .sandybrown:hover{
-            color: sandybrown;
-            text-align: left;
-            font-size: 32px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-            transition-delay: 150ms;
-            transition-duration: 500ms;
-            transition-property: all;
-            transition-timing-function: ease-in-out;
-        }
-        .seagreen{
-            color: seagreen;
-            text-align: left;
-            font-size: 30px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-        }
-        .seagreen:hover{
-            color: seagreen;
-            text-align: left;
-            font-size: 32px;
-            font-family: "Comic Sans MS";
-            padding-left: 40%;
-            line-height: 300%;
-            transition-delay: 150ms;
-            transition-duration: 500ms;
-            transition-property: all;
-            transition-timing-function: ease-in-out;
-        }
-        .head{
-            text-align: center;
-            background-color: aliceblue;
-            font-size: 50px;
-            font-family: "Comic Sans MS";
-        }
-        .head1{
-            text-align: center;
-            background-color: aliceblue;
-            font-family: "Comic Sans MS";
-            padding-top: 0px;
-            margin-top: 0px;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Los23kgs</title>
+    <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'montserrat', sans-serif;
+            box-sizing: border-box;
         }
         .img{
             height:100px;
@@ -107,40 +21,150 @@
             margin-top: 2%;
             margin-bottom: 0%;
             line-height: 0px;
+            padding-left: 45%;
         }
-        .black{
-            color: black;
-            text-align: left;
+        .services-section {
+            background: url("./img/title.png");
+            background-size: cover;
+            padding: 60px 0;
+        }
+        .inner-width {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        .section-title {
+            text-align: center;
+            text-transform: uppercase;
             font-size: 30px;
-            font-family: "Comic Sans MS";
         }
-        .black:hover{
-            color: black;
-            text-align: left;
-            font-size: 50px;
-            font-family: "Comic Sans MS";
-            transition-delay: 150ms;
-            transition-duration: 500ms;
-            transition-property: all;
-            transition-timing-function: ease-in-out;
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .service-box {
+             max-width: 33.33%;
+             padding: 10px;
+             text-align: center;
+             cursor: pointer;
+         }
+
+        .service-icon {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border: 3px solid black;
+            transform: rotate(45deg);
+            margin-bottom: 30px;
+            margin-top: 16px;
+            transition: 0.3s linear;
         }
 
+        .service-icon i {
+            line-height: 70px;
+            transform: rotate(-45deg);
+            font-size: 26px;
+        }
+        .service-box:hover .service-icon {
+            background: whitesmoke;
+        }
+
+        .service-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .service-desc {
+               font-size: 14px;
+               color: floralwhite;
+        }
+        .service-desc-css {
+            font-size: 14px;
+            color: black;
+        }
+        @media screen and (max-width: 960px) {
+            .service-box {
+                max-width: 45%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .service-box {
+                max-width: 50%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .service-box {
+                max-width: 100%;
+            }
+        }
     </style>
-</head >
-<body class="whitesmoke" >
-<nav class="head"><font color="royalblue">Welcom</font> <font color="crimson">to</font> <font color="sandybrown">my</font> <font color="seagreen">record-corner</font></nav>
-<p class="head1">
-<img src="./img/title.png" class="img" ><br><a class="black" href="./about/about.html">about</a>
-</p>
-<br>
-<a href="./html/html.html" class="crimson" >HTML5目录</a>
-<br>
-<a href="./pac/pac.html" class="sandybrown">自动控制原理目录</a>
-<br>
-<a href="./css/css.html" class="seagreen">CSS目录</a>
-<br>
-<a href="./markdown/markdown_grammar.html" class="royalblue">markdown的使用说明</a>
-<br>
-<a href="./mathjax.html" class="crimson" >Mathjax使用说明</a>
+</head>
+<body>
+<div class="services-section">
+    <div class="inner-width">
+        <h1 class="section-title"><font color="royalblue">Welcom</font> <font color="crimson">to</font> <font color="sandybrown">my</font> <font color="BlueViolet">record-corner</font></h1>
+        <div class="img">
+
+                <img src="title.png" class="img" href="./about/about.html" usemap="#about">
+                <map name="about">
+                    <area shape="circle" coords="50,50,50" href="./about/about.html">
+                </map>
+        </div>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-icon" onclick="window.open('./html/html.html','_self')">
+                    <i class="fab fa-html5" ></i>
+                </div>
+                <div class="service-title">HTML5</div>
+                <div class="service-desc">
+                    超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。HTML是一种基础技术，常与CSS、JavaScript一起被众多网站用于设计网页、网页应用程序以及移动应用程序的用户界面。网页浏览器可以读取HTML文件，并将其渲染成可视化网页。HTML描述了一个网站的结构语义随着线索的呈现，使之成为一种标记语言而非编程语言。
+                </div>
+            </div>
+
+            <div class="service-box" onclick="window.open('./pac/pac.html','_self')">
+                <div class="service-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="service-title"><font color="#f5f5f5">自动控制原理</font></div>
+                <div class="service-desc">
+                    自动化控制（英语：automation control）属于自动化技术的一门，广义来说，通常是指不需借着人力亲自操作机器或机构，而能利用动物以外的其他装置元件或能源，来达成人类所期盼执行的工作。更狭义地说即是以生化、机电、电脑、通讯、水力、蒸汽等科学知识与应用工具，进行设计来代替人力或减轻人力或简化人类工作程序的机构机制，皆可称之。
+                </div>
+            </div>
+
+            <div class="service-box" onclick="window.open('./css/css.html','_self')">
+                <div class="service-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="service-title">CSS</div>
+                <div class="service-desc-css">
+                    层叠样式表（英语：Cascading Style Sheets，缩写：CSS；又称串样式列表、级联样式表、串接样式表、阶层式样式表）是一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护。当前最新版本是CSS2.1，为W3C的推荐标准。CSS3现在已被大部分现代浏览器支持，而下一版的CSS4仍在开发中。
+                </div>
+            </div>
+
+            <div class="service-box" onclick="window.open('./markdown/markdown_grammar.html','_self')">
+                <div class="service-icon">
+                    <i class="fab fa-markdown"></i>
+                </div>
+                <div class="service-title">Markdown</div>
+                <div class="service-desc">
+                    Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。[这种语言吸收了很多在电子邮件中已有的纯文本标记的特性
+                </div>
+            </div>
+
+            <div class="service-box" onclick="window.open('./mathjax.html','_self')">
+                <div class="service-icon">
+                    <i class="fas fa-infinity"></i>
+                </div>
+                <div class="service-title">Mathjax</div>
+                <div class="service-desc">
+                    MathJax是一个跨浏览器的JavaScript库，它使用MathML、LaTeX和ASCIIMathML标记在Web浏览器中显示数学符号。MathJax是在Apache许可证下作为开源软件发布的。
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
